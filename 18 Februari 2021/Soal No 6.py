@@ -15,7 +15,7 @@ result = [[0, 0, 0, 0],
 
 #Kalkulasi
 for i in range(len(x)):
-    for j in range(len(x[0])):
+    for j in range(len(x[0])+1):
         for k in range(len(y)):
             result[i][j] += x[i][k] * y[k][j]
 
